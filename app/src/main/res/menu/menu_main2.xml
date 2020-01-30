@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+
+<!--    <item-->
+
+<!--        android:id="@+id/techersde"-->
+<!--        android:title="Class Detailes"-->
+
+
+<!--        />-->
+
+    <item
+
+       android:id="@+id/missing11"
+        android:title="MISSING INFO USER" />
+
+
+    <item
+
+        android:id="@+id/comp1t"
+        android:title="COMPLAINT INFO USER" />
+
+
+
+
+        <item
+            android:id="@+id/logout"
+            android:title="LOGOUT" />
+
+</menu>

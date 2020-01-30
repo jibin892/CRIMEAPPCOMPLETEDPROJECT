@@ -1,0 +1,144 @@
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginTop="30dp"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/scrollView"
+    android:background="@drawable/aa"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+  >
+
+  <LinearLayout
+      android:id="@+id/cc"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+
+
+      android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/name2"
+        android:layout_width="240dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="135dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/btnnn"
+        android:ems="10"
+        android:drawableStart="@drawable/username"
+
+        android:hint="Name"
+        android:inputType="text"
+        android:padding="8dp" />
+
+    <EditText
+        android:id="@+id/phone2"
+        android:layout_width="240dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="135dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/btnnn"
+        android:ems="10"
+        android:drawableStart="@drawable/phone"
+        android:hint="Phone number"
+        android:inputType="phone"
+        android:maxLength="10"
+        android:padding="8dp" />
+
+    <EditText
+        android:id="@+id/date2"
+        android:layout_width="240dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="135dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/btnnn"
+        android:ems="10"
+        android:focusable="false"
+        android:drawableStart="@drawable/datee"
+        android:hint="Date"
+        android:inputType="date"
+        android:padding="8dp"
+        android:windowSoftInputMode="stateAlwaysHidden" />
+
+
+    <TextView
+        android:id="@+id/textView58"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="135dp"
+        android:layout_marginTop="15dp"
+        android:text="District"/>
+
+    <Spinner
+        android:id="@+id/d"
+        android:layout_width="240dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="135dp"
+        android:layout_marginTop="1dp"
+        android:background="@drawable/btnnn"
+        android:hint="Name"
+        android:padding="8dp"
+        android:paddingLeft="16dp"
+        android:paddingTop="8dp"
+        android:paddingRight="16dp"
+        android:paddingBottom="8dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/place2"
+        android:layout_width="240dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="135dp"
+        android:layout_marginTop="30dp"
+        android:drawableStart="@drawable/place"
+        android:background="@drawable/btnnn"
+        android:hint="City"
+        android:padding="8dp" />
+
+    <EditText
+        android:id="@+id/missing2"
+        android:layout_width="239dp"
+        android:layout_height="148dp"
+        android:layout_marginLeft="135dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/btnnn"
+        android:drawableStart="@drawable/enter"
+        android:ems="10"
+
+        android:hint="Subject"
+        android:inputType="text"
+        android:padding="8dp" />
+
+    <EditText
+        android:id="@+id/details2"
+        android:layout_width="240dp"
+        android:layout_height="164dp"
+        android:layout_marginLeft="135dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/btnnn"
+        android:drawableStart="@drawable/enter"
+        android:hint="Discription"
+        android:padding="8dp" />
+
+    <Button
+        android:id="@+id/exp_btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+
+        android:layout_marginLeft="155dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn"
+        android:onClick="logout"
+        android:padding="4dp"
+        android:text="SUDMIT"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+
+  </LinearLayout>
+</ScrollView>

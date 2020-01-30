@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/td"
+    android:background="@drawable/aa"
+    tools:context=".Teachers_detailes_Admin">
+
+    <EditText
+        android:id="@+id/enq"
+        android:layout_width="230dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:hint="More Enquary"
+        android:drawableStart="@drawable/phone"
+        android:background="@drawable/btnnn"
+        android:padding="8dp"
+        android:inputType="phone"
+        android:textColorHint="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.424" />
+
+    <EditText
+        android:id="@+id/cph"
+        android:layout_width="230dp"
+        android:layout_height="43dp"
+        android:background="@drawable/btnnn"
+        android:ems="10"
+        android:hint="Complinter phone number"
+
+        android:drawableStart="@drawable/phone"
+        android:inputType="phone"
+        android:maxLength="10"
+        android:padding="8dp"
+        android:textColorHint="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.151" />
+
+    <EditText
+        android:id="@+id/cdate"
+        android:layout_width="230dp"
+        android:layout_height="43dp"
+        android:background="@drawable/btnnn"
+        android:ems="10"
+        android:focusable="false"
+        android:hint="Updated Date"
+        android:inputType="phone"
+        android:drawableStart="@drawable/datee"
+        android:maxLength="10"
+        android:padding="8dp"
+        android:textColorHint="@color/black"
+        android:windowSoftInputMode="stateAlwaysHidden"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.244" />
+
+    <EditText
+        android:id="@+id/status"
+        android:layout_width="230dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:hint="Status"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@color/black"
+        android:background="@drawable/btnnn"
+        android:padding="8dp"
+        android:drawableStart="@drawable/enter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.333" />
+
+    <Button
+        android:id="@+id/d_btn"
+        android:layout_width="174dp"
+        android:layout_height="40dp"
+        android:background="@drawable/btn"
+        android:text="UPLOAD"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.447"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.561" />
+
+</android.support.constraint.ConstraintLayout>
